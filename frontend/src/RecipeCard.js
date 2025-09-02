@@ -3,7 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { FaHeart } from 'react-icons/fa';
 
+
 const BASE_URL = 'http://127.0.0.1:8000/';
+
+
 
 function RecipeCard({ recipe, onDelete, onEdit, user }) {
   const [isFavorite, setIsFavorite] = useState(false);
